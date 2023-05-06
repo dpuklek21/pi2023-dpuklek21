@@ -1,8 +1,10 @@
 ﻿using System;
 
-public class Class1
+public class Student
+
 {
-	public Class1()
-	{
-	}
+	public class  Student : Person
+		{
+        public int Grade { get; set; }
+    }
 }

@@ -1,8 +1,11 @@
 ﻿using System;
 
-public class Class1
+public class Teacher
 {
-	public Class1()
+	public class Teacher : Person
+
 	{
-	}
+		public string Username { get; set; }
+    public string Password { get; set; }
+    }
 }

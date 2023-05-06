@@ -1,10 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-internal class Perosn
-{
-	public abstract class Perosn : object
-
-	{
+namespace Evaluation_Manager.Model {
+    public abstract class Perosn : Object
+        {
         public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
@@ -13,4 +15,5 @@ internal class Perosn
         }
 
     }
+
 }
